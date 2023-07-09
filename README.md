@@ -1,45 +1,65 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# PD_Exercicios_Dupla42
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 42<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0118555  |  Wengel Rodrigues Farias |
+
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto foi feito com a resolução de 3 exercícios abordando o tema de Programação Dinâmica. Os exercícios foram retirados do site: [LeetCode](https://leetcode.com/).
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Exercicio 1 - Climbing Stairs
+
+
+Link: [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) <br>
+Dificuldade: Fácil
+
+![ScreenShot1](./assets/img1.png)
+
+### Exercicio 2 - Interleaving String
+
+Link: [Interleaving String](https://leetcode.com/problems/interleaving-string/) <br>
+Dificuldade: Médio
+
+![ScreenShot2](./assets/img2.png)
+
+### Exercicio 3 - Regular Expression Matching
+
+Link: [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) <br>
+Dificuldade: Difícil
+
+![ScreenShot3](./assets/img3.png)
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python<br>
+
+Caso queira testar localmente é necessário instalar python:
+
+- ### Windows
+Baixe o pacote Python do [site official](https://www.python.org/downloads/), e no momento da instação, marque a opção "Add Python to PATH".
+
+- ### Linux
+Execute no terminal do linux a atualização dos pacotes e instalação do python3
+
+```bash
+sudo apt-get update
+sudo apt-get install python3
+```
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para verificar o funcionamento basta abrir o link do exercicio e copiar o código referente a questão, e logo após realizar o envio. Caso queira verificar localmente, é necessário executar o programa, e para isto basta utilizar o comando:
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
+`python NomeDoArquivo.py`.
 
 
+## Video da Apresentação
 
+[Link do Vídeo](apresentacao.mp4)
